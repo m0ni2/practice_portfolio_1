@@ -15,11 +15,15 @@ p{
     font-size: 17px;
     font-weight: 400;
 }
+img{
+    max-width: 100%;
+}
 section{
     padding: 0 10%;
+    display: flex;
+    margin-bottom: 100px;
 }
 .header-area{
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -42,4 +46,20 @@ section{
     padding: 15px 30px;
     background-image: linear-gradient(#fb6957, #d33824);
     border-radius: 10px;
+}
+.width-32{
+    width: 32%;
+    margin-right: 2%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 50px #ddd;
+}
+.width-32:last-child{
+    margin-right: 0;
+}
+.client-area p{
+    text-align: center;
 }

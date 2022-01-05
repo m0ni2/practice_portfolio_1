@@ -47,6 +47,11 @@ section{
     background-image: linear-gradient(#fb6957, #d33824);
     border-radius: 10px;
 }
+.client-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .width-32{
     width: 32%;
     margin-right: 2%;
@@ -69,6 +74,9 @@ section{
 
 .experience-area{
     color: rgb(190, 174, 174);
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 .width-45{
     width: 45%;
